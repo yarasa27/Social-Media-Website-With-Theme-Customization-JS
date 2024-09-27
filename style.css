@@ -374,3 +374,12 @@ main .container .left .profile{
 .middle .liked-by p{
     margin-left: 0.5rem;
 }
+
+/* ======================== RIGHT ============================*/
+
+main .container .right{
+    height: max-content;
+    position: sticky;
+    top: var(--sticky-top-right);
+    bottom: 0;
+}
