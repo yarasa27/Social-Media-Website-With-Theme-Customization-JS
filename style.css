@@ -377,9 +377,5 @@ main .container .left .profile{
 
 /* ======================== RIGHT ============================*/
 
-main .container .right{
-    height: max-content;
-    position: sticky;
-    top: var(--sticky-top-right);
-    bottom: 0;
-}
+
+
