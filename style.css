@@ -495,6 +495,7 @@ main .container .right{
     padding: 3rem;
     border-radius: var(--card-border-radius);
     width: 50%;
+    box-shadow: 0 0 1rem var(--color-primary);
 }
 
 /* -------------- FONT SIZE ----------------- */
@@ -639,6 +640,10 @@ main .container .right{
     .left .btn{
         display: none;
     }
+
+    .customize-theme .card{
+        width: 80vw;
+    }
 }
 
 /* ============= MEDIA QUERTIES FOR SMALL TABLETS AND MOBILE PHONES ============ */
@@ -660,7 +665,7 @@ main .container .right{
         right: 0;
     }
 
-    /* ------ NOTIFICATION POPUP */
+    /* ------ NOTIFICATION POPUP ---------*/
     .left .notifications-popup{
         position: absolute;
         left: -20rem;
@@ -679,5 +684,9 @@ main .container .right{
     }
     main .container .right{
         display: none;
+    }
+
+    .customize-theme .card{
+        width: 92vw;
     }
 }
